@@ -1,4 +1,4 @@
-public public class tarefaclassrom {
+public public class tarefa_classrom {
     private String nome;
     private int idade;
     private double altura;
