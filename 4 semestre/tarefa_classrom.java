@@ -1,14 +1,16 @@
-public public class tarefa_classrom {
+public class tarefa_classrom {
     private String nome;
     private int idade;
     private double altura;
 
-    public tarefaclassrom(String nome, int idade, double altura) {
+    // Construtor
+    public tarefa_classrom(String nome, int idade, double altura) {
         this.nome = nome;
         this.idade = idade;
         this.altura = altura;
     }
 
+    // Getter e Setter para nome
     public String getNome() {
         return nome;
     }
@@ -16,6 +18,7 @@ public public class tarefa_classrom {
         this.nome = nome;
     }
 
+    // Getter e Setter para idade
     public int getIdade() {
         return idade;
     }
@@ -23,7 +26,7 @@ public public class tarefa_classrom {
         this.idade = idade;
     }
 
-
+    // Getter e Setter para altura
     public double getAltura() {
         return altura;
     }
@@ -31,29 +34,23 @@ public public class tarefa_classrom {
         this.altura = altura;
     }
 
-    
+    // Método para exibir informações
     public void exibirInfo() {
         System.out.println("Nome: " + nome);
         System.out.println("Idade: " + idade);
         System.out.println("Altura: " + altura);
     }
 
-    
+    // Método main para testar
     public static void main(String[] args) {
-        tarefaclassrom p1 = new tarefaclassrom("Murilo L", 20, 1.98);
+        tarefa_classrom pessoa = new tarefa_classrom("Ana", 25, 1.68);
+        pessoa.exibirInfo();
 
-    
-        p1.exibirInfo();
+        pessoa.setNome("Carlos");
+        pessoa.setIdade(30);
+        pessoa.setAltura(1.75);
 
-    
-        p1.setNome("Locatelli");
-        p1.setIdade(19);
-        p1.setAltura(1.75);
-
-        System.out.println("\nDepois das alterações:");
-        p1.exibirInfo();
+        System.out.println("\nDepois da alteração:");
+        pessoa.exibirInfo();
     }
-}
- {
-    
 }
