@@ -5,9 +5,11 @@ Repositório destinado às atividades da disciplina **Paradigmas de Programaçã
 ## 💻 Linguagem utilizada
 - **Java**
 
-## 📚 Descrição
+##
 Neste repositório estão reunidos os exercícios e tarefas práticas desenvolvidos ao longo da disciplina de Paradigmas, com foco na aplicação dos conceitos de **programação orientada a objetos**, **estruturada**, **funcional** e **lógica**.
 
 Cada atividade representa a aplicação de um paradigma ou conceito estudado em aula.
 
-## 🗂 Estrutura do repositório
+## 🧑‍🎓 Autor
+**Murilo Locatelli**  
+Estudante de **Ciência da Computação - 4º semestre**
